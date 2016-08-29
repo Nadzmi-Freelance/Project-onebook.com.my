@@ -1,0 +1,47 @@
+header {
+  top: 0px;
+  height: 60px;
+  min-width: 100%;
+  position: fixed;
+  padding-top: 5px;
+  background-color: #5C185A;
+}
+
+header h1 {
+  float: left;
+  padding: 10px 0px 0px 5px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.heading-layout {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#btn-menu {
+  float: right;
+  border: none;
+  background: none;
+  margin: 0px 5px 5px 0px;
+}
+
+#nav-dropdown-content {
+  float: left;
+  display: none;
+  min-width: 100%;
+  background-color: #40113D;
+}
+
+#nav-dropdown-content a {
+  padding: 10px;
+  display: block;
+  color: #FFFF4C;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav-dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+}
