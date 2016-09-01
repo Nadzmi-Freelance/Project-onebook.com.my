@@ -6,6 +6,12 @@ p {
   text-align: justify;
 }
 
+.promosi {
+  padding: 10px;
+  background-color: #CEFFFD;
+  margin: 20px 10px 20px 10px;
+}
+
 #content {
   margin-top: 60px;
 }
