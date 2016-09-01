@@ -1,0 +1,25 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#content {
+  margin-top: 60px;
+}
+
+#content-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #CCFFFF;
+}
+
+#content-footer {
+  padding: 20px 10px 20px 10px;
+}
