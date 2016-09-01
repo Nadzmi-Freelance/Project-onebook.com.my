@@ -1,0 +1,26 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+p {
+  text-align: justify;
+}
+
+#content {
+  margin-top: 60px;
+}
+
+#content-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #CEFFFD;
+}
+
+#content-header img {
+  height: 150px;
+  width: 300px;
+}
+
+#content-footer {
+  padding: 20px 10px 20px 10px;
+}
