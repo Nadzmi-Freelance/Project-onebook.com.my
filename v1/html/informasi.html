@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
+
+    <title>Informasi</title>
+
+    <!-- stylesheets -->
+    <link href="../css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/informasi.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header>
+      <h1 class="heading-layout">ONEBOOK</h1>
+      <button class="heading-layout" id="btn-menu" onclick="showDropDown()"><img src="../img/header/ic_menu_black.png" /></button><br />
+      <nav id="nav-dropdown-content">
+        <a href="html/informasi.html"><h2>INFORMASI</h2></a>
+        <a href="html/produk.html"><h2>PRODUK</h2></a>
+        <a href="html/promosi.html"><h2>PROMOSI TERKINI</h2></a>
+        <a href="html/cabutan.html"><h2>CABUTAN BERTUAH</h2></a>
+        <a href="html/soalan.html"><h2>SOALAN LAZIM</h2></a>
+        <a href="html/hubung.html"><h2>HUBUNGI KAMI</h2></a>
+      </nav>
+    </header>
+
+    <div id="content">
+      <div class="content-header">
+        <a href="informasi.html">
+          <img src="../img/informasi/ic_info_black_48dp_2x.png" alt="ikon informasi" />
+          <h2>INFORMASI</h2>
+        </a>
+      </div>
+
+      <div class="content-footer">
+        <p>
+          Syarikat kami Onepage Media Networks adalah pemilik Onebook.
+          Onebook adalah pelopor buku resepi applikasi mobile Android terunggul di Malaysia.
+          Buku resepi kami boleh dibawa kemana sahaja dan boleh diguna pakai 24/7.
+          Buku respi mobile kami terdiri daripada dua kategori iaitu versi percuma dan versi penuh.
+          Versi penuh berharga RM10 sahaja dan akan melayakkan  anda untuk menyertai cabutan bertuah bulanan dan juga cabutan bonanza (tahunan) disamping cabutan khas disetiap promosi khas yang diadakan dari masa ke semasa.
+          Pelbagai hadiah menarik disediakan untuk setiap cabutan berbentuk smartphone Samsung dari pelbagai model.
+          Setiap pemenang cabutan akan diumumkan didalam laman web kami setiap bulan.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <h1>HUBUNGI KAMI</h1>
+      <form id="form" action="mailto:onepage2u@gmail.com" method="post">
+        <div id="form-input">
+          <input type="text" id="form-input-hubung" class="form-hubung" name="nama" placeholder="NAMA" /><br />
+          <input type="email" id="form-input-hubung" class="form-hubung" name="emel" placeholder="EMEL" /><br />
+          <textarea type="textarea" id="form-input-hubung" class="form-hubung" name="komen">KOMEN ANDA</textarea><br />
+        </div>
+        <input id="form-submit" type="submit" class="form-hubung" name="submit" value="HANTAR" />
+      </form>
+    </footer>
+
+    <!-- scripts -->
+    <script src="../js/framework/jquery-1.11.3.min.js"></script>
+    <script src="../js/framework/bootstrap.min.js"></script>
+    <script src="../js/header.js"></script>
+  </body>
+</html>
