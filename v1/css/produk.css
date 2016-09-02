@@ -3,48 +3,31 @@
 @import "footer.css";
 
 a {
-  text-decoration: none;
-}
-
+  text-decoration: none;}
 a:hover {
-  text-decoration: none;
-}
-
+  text-decoration: none;}
 h3 {
-  font-weight: bold;
-}
+  font-weight: bold;}
 
-#content {
-  margin-top: 60px;
-}
-
-.content-header {
+.content-header { /* content header */
   padding: 20px;
   text-align: center;
-  background-color: #CEFFFD;
-}
-
+  background-color: #CEFFFD;}
 .content-header a img {
   height: 140px;
-  width: 140px;
-}
-
-.content-footer {
+  width: 140px;}
+.content-footer { /* content footer */
   text-align: center;
-  padding: 20px 10px 20px 10px;
-}
-
+  padding: 20px 10px 20px 10px;}
 .content-footer a img {
   height: 100px;
-  width: 100px;
-}
-
+  width: 100px;}
 .content-footer a h3 {
   margin-top: 5px;
-  font-size: 15px;
-}
-
-.produk {
+  font-size: 15px;}
+.produk { /* each produk */
   display: block;
-  margin: 40px 0px 40px 0px;
-}
+  margin: 40px 0px 40px 0px;}
+
+#content { /* entire content */
+  margin-top: 60px;}

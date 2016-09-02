@@ -3,23 +3,15 @@
 @import "footer.css";
 
 a {
-  text-decoration: none;
-}
-
+  text-decoration: none;}
 a:hover {
-  text-decoration: none;
-}
+  text-decoration: none;}
 
-#content {
-  margin-top: 60px;
-}
-
-#content-header {
+#content { /* entire content */
+  margin-top: 60px;}
+#content-header { /* content header */
   padding: 20px;
   text-align: center;
-  background-color: #CCFFFF;
-}
-
-#content-footer {
-  padding: 20px 10px 20px 10px;
-}
+  background-color: #CCFFFF;}
+#content-footer { /* content footer */
+  padding: 20px 10px 20px 10px;}

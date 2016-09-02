@@ -3,35 +3,26 @@
 @import "footer.css";
 
 h2 {
-  font-weight: bold;
-}
-
+  font-weight: bold;}
+p {
+  text-indent: 20px;}
 a {
-  text-decoration: none;
-}
-
+  text-decoration: none;}
 a:hover {
-  text-decoration: none;
-}
+  text-decoration: none;}
 
 #content {
-  margin-top: 60px;
-}
+  margin-top: 60px;}
 
 .content-header {
   text-align: center;
   padding: 20px;
-  background-color: #CEFFFD;
-}
-
+  background-color: #CEFFFD;}
 .content-header a img {
   height: 140px;
   width: 140px;
-  margin-bottom: 10px;
-}
-
+  margin-bottom: 10px;}
 .content-footer {
   text-align: justify;
   padding: 40px 10px 40px 10px;
-  background-color: #ffffff;
-}
+  background-color: #ffffff;}
