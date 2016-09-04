@@ -9,7 +9,7 @@
 
     <!-- stylesheets -->
     <link href="../css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../css/soalan.css" rel="stylesheet" type="text/css" />
+    <link href="../css/pememnang-cabutan.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,19 +30,11 @@
       </nav>
     </header>
 
-    <div id="content">
-      <div id="content-header">
-        <a href="soalan.html">
-          <img src="../img/soalan/ic_help_black_48dp_2x.png" />
-          <h2>SOALAN LAZIM</h2>
-        </a>
-      </div>
-
-      <div id="content-footer"></div>
-    </div>
+    <div id="content"></div>
 
     <footer>
       <h1>HUBUNGI KAMI</h1>
+
       <form id="form" action="mailto:onepage2u@gmail.com" method="post">
         <div id="form-input">
           <input type="text" id="form-input-hubung" class="form-hubung" name="nama" placeholder="NAMA" /><br />
