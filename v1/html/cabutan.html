@@ -18,7 +18,7 @@
 
   <body>
     <header>
-      <h1 class="heading-layout">ONEBOOK</h1>
+      <a href="../index.html"><h1 class="heading-layout">ONEBOOK</h1></a>
       <button class="heading-layout" id="btn-menu" onclick="showDropDown()"><img src="../img/header/ic_menu_black.png" /></button><br />
       <nav id="nav-dropdown-content">
         <a href="informasi.html"><h2>INFORMASI</h2></a>
@@ -36,11 +36,16 @@
           <img src="../img/cabutan/cabutan.png" alt="cabutan bertuah" />
           <h2>CABUTAN BERTUAH</h2>
         </a>
+        <br />
+        <nav>
+          <a href="#terma-syarat">Terma & Syarat</a> | <a href="#content-senarai-bulan">Senarai pemenang</a>
+        </nav>
       </div>
 
       <div id="content-senarai-bulan">
         <div id="content-senarai-bulan-header">
           <h3>SENARAI PEMENANG MENGIKUT BULAN</h3>
+          <h2>2016</h2>
         </div>
 
         <div id="content-senarai-bulan-footer">
@@ -144,15 +149,17 @@
       </div>
 
       <div id="content-footer">
-        <h3>SYARAT CABUTAN BERTUAH</h3>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        </ul>
+        <div id="terma-syarat">
+          <h3>SYARAT CABUTAN BERTUAH</h3>
+          <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ol>
+        </div>
       </div>
     </div>
 
@@ -167,11 +174,13 @@
         </div>
         <input id="form-submit" type="submit" class="form-hubung" name="submit" value="HANTAR" />
       </form>
+      <h5 id="copyright">&copy; Onebook Resepi 2016</h5>
     </footer>
 
     <!-- scripts -->
     <script src="../js/framework/jquery-1.11.3.min.js"></script>
     <script src="../js/framework/bootstrap.min.js"></script>
     <script src="../js/header.js"></script>
+    <script src="../js/cabutan.js"></script>
   </body>
 </html>

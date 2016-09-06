@@ -6,11 +6,8 @@ a {
   text-decoration: none;}
 a:hover {
   text-decoration: none;}
-h2 {
-  color: #0C8343;
+nav {
   font-weight: bold;}
-h2:hover {
-  color: #004000;}
 
 /* content */
 #content {
@@ -25,17 +22,23 @@ h2:hover {
   height: 140px;
   width: 140px;
   margin-bottom: 10px;}
+#content-header a h2 {
+  color: #0C8343;
+  font-weight: bold;}
+#content-header a h2:hover {
+  color: #004000;}
 
 /* content-senarai-bulan */
 #content-senarai-bulan {
   background-color: #CEFFFD;}
 
 /* content-senarai-bulan-header */
-#content-senarai-bulan-header h3 {
+#content-senarai-bulan-header {
+  text-align: center;
+  background-color: #FFFFFF;}
+#content-senarai-bulan-header h3, #content-senarai-bulan-header h2 {
   color: #5C185A;
   font-weight: bold;
-  text-align: center;
-  background-color: #FFFFFF;
   padding: 5px 10px 5px 10px;}
 
 /* content-senarai-bulan-footer */
@@ -73,8 +76,13 @@ h2:hover {
   color: #5C185A;
   margin-top: 10px;
   margin-bottom: 20px;}
-#content-footer ul {
+#content-footer ol {
   color: #000000;
+  list-style-type: number;
   list-style-position: inside;
   padding-left: 20px;
   padding-right: 20px;}
+.terma-syarat {
+  color: #000000;
+  font-weight: bold;
+  text-align: left;}
