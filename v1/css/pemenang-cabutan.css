@@ -1,3 +1,6 @@
 @import "normalize.css";
 @import "header.css";
 @import "footer.css";
+
+#content {
+  margin-top: 60px;}

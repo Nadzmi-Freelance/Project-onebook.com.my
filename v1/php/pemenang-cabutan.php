@@ -9,7 +9,7 @@
 
     <!-- stylesheets -->
     <link href="../css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../css/pememnang-cabutan.css" rel="stylesheet" type="text/css" />
+    <link href="../css/pemenang-cabutan.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -18,15 +18,15 @@
 
   <body>
     <header>
-      <h1 class="heading-layout">ONEBOOK</h1>
+      <a href="../index.html"><h1 class="heading-layout">ONEBOOK</h1></a>
       <button class="heading-layout" id="btn-menu" onclick="showDropDown()"><img src="../img/header/ic_menu_black.png" /></button><br />
       <nav id="nav-dropdown-content">
-        <a href="informasi.html"><h2>INFORMASI</h2></a>
-        <a href="produk.html"><h2>PRODUK</h2></a>
-        <a href="promosi.html"><h2>PROMOSI TERKINI</h2></a>
-        <a href="cabutan.html"><h2>CABUTAN BERTUAH</h2></a>
-        <a href="soalan.html"><h2>SOALAN LAZIM</h2></a>
-        <a href="hubung.html"><h2>HUBUNGI KAMI</h2></a>
+        <a href="../html/informasi.html"><h2>INFORMASI</h2></a>
+        <a href="../html/produk.html"><h2>PRODUK</h2></a>
+        <a href="../html/promosi.html"><h2>PROMOSI TERKINI</h2></a>
+        <a href="../html/cabutan.html"><h2>CABUTAN BERTUAH</h2></a>
+        <a href="../html/soalan.html"><h2>SOALAN LAZIM</h2></a>
+        <a href="../html/hubung.html"><h2>HUBUNGI KAMI</h2></a>
       </nav>
     </header>
 
@@ -35,7 +35,7 @@
     <footer>
       <h1>HUBUNGI KAMI</h1>
 
-      <form id="form" action="mailto:onepage2u@gmail.com" method="post">
+      <form id="form" action="../php/hubung.php" method="post">
         <div id="form-input">
           <input type="text" id="form-input-hubung" class="form-hubung" name="nama" placeholder="NAMA" /><br />
           <input type="email" id="form-input-hubung" class="form-hubung" name="emel" placeholder="EMEL" /><br />
@@ -43,6 +43,7 @@
         </div>
         <input id="form-submit" type="submit" class="form-hubung" name="submit" value="HANTAR" />
       </form>
+      <h5 id="copyright">&copy; Onebook Resepi 2016</h5>
     </footer>
 
     <!-- scripts -->
