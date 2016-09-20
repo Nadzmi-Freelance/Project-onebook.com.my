@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST["submit"])) {
-  $receiver = "nadzmix@gmail.com"; // reveicver of mailto // onepage2u@gmail.com
+  $receiver = "onepage2u@gmail.com"; // reveicver of mailto // onepage2u@gmail.com
   $senderName = $_POST["nama"]; // sender name
   $senderEmail = $_POST["emel"]; // sender email of mailto
   $senderMessage = $_POST["komen"]; // sender message/comment

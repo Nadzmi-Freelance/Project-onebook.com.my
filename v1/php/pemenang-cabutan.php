@@ -1,3 +1,4 @@
+<?php include "conn.php"; ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,9 +12,13 @@
     <link href="../css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="../css/pemenang-cabutan.css" rel="stylesheet" type="text/css" />
 
+    <style>
+      <?php include "../css/pemenang-cabutan.css"; ?>
+    </style>
+
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <![endif] -->
   </head>
 
   <body>
@@ -30,7 +35,46 @@
       </nav>
     </header>
 
-    <div id="content"></div>
+    <div id="content">
+      <?php
+      if(isset($_POST["tarikh"])) {
+        $tarikh = $_POST["tarikh"]; // get value from html form
+        $tarikhSplit = explode("-", $tarikh); // split full tarikh into 'bulan' & 'tahun'
+
+        // initialize each variables
+        $bulan = $tarikhSplit[0];
+        $tahun = $tarikhSplit[1];
+      ?>
+      <div id="content-header">
+        <video controls="true" preload="auto"></video>
+      </div>
+      <?php
+        // get data from server
+        $sqlCabutan = "SELECT * FROM cabutan WHERE MONTH(cabutanDate) LIKE '$bulan' AND YEAR(cabutanDate) LIKE '$tahun'";
+        $queryCabutan = mysqli_query($conn, $sqlCabutan) or die(mysql_error());
+
+        if(mysqli_num_rows($queryCabutan) > 0) {
+      ?>
+      <div id="pemenang">
+        <?php
+            while($row = mysqli_fetch_array($queryCabutan)) {
+              // initialize cabutan data
+              $cabutanData = array(
+                "cabutanName" => $row["cabutanName"],
+                "cabutanDate" => $row["cabutanDate"],
+                "cabutanImage" => $row["cabutanImage"]
+              );
+        ?>
+        <div class="pemenang-list">
+          <img src="data:image/jpeg;base64, <?php echo base64_encode($cabutanData["cabutanImage"]); ?>" alt="pemenang" />
+          <h3><?php echo $cabutanData["cabutanName"]; ?></h3>
+        </div>
+        <?php
+            }
+          }
+        }
+        ?>
+      </div>
 
     <footer>
       <h1>HUBUNGI KAMI</h1>
