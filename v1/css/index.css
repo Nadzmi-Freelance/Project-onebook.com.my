@@ -23,6 +23,10 @@ a:hover {
   background-color: #CEFFFD;
   padding-top: 30px;
   padding-bottom: 30px;}
+#banner-promosi {
+  width: 80%;
+  height: auto;
+  margin-top: 20px;}
 #section-head a img {
   height: 280px;
   width: 280px;
