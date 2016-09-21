@@ -50,7 +50,14 @@
       </div>
       <?php
         // get data from server
-        $sqlCabutan = "SELECT * FROM cabutan WHERE MONTH(cabutanDate) LIKE '$bulan' AND YEAR(cabutanDate) LIKE '$tahun'";
+        $sqlCabutan = "SELECT *
+                        FROM `cabutan`, `pemenang`
+                        WHERE
+                        	`cabutan`.cabutanUId LIKE `pemenang`.pemenangUId
+                        	AND
+                        	YEAR(`cabutanDate`) LIKE $tahun
+                        	AND
+                        	MONTH(`cabutanDate`) LIKE $bulan;";
         $queryCabutan = mysqli_query($conn, $sqlCabutan) or die(mysql_error());
 
         if(mysqli_num_rows($queryCabutan) > 0) {
