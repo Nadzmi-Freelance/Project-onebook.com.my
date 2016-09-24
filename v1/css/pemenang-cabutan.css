@@ -2,38 +2,25 @@
 @import "header.css";
 @import "footer.css";
 
-#content {
-  padding: 0px 0px 0px 0px;}
-#content-header {
-  height: 300px;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
+body {
   background-color: #CEFFFD;}
-#content-header video {
-  height: 50%;
-  width: 80%;}
-#pemenang {
-  text-align: center;}
-#content-footer {
-  text-align: center;
-  background-color: #CEFFFD;
-  padding: 20px 10px 20px 10px;}
-#content-footer h2 {
-  font-weight: bold;
-  font-family: serif;}
-#content-footer ol {
-  font-family: sans-serif;
-  margin: 10px 10% 10px 10%;
-  text-align: left; }
 
-.pemenang-list {
-  display: inline-block;
-  margin: 10px;}
-.pemenang-list img {
-  height: 200px;
-  width: 150px;}
-.pemenang-list h3 {
-  font-weight: bold;
-  font-family: sans-tserif;
-  padding-top: 5px;
-  padding-bottom: 5px;}
+#content {
+  padding: 80px 10px 20px 10px;}
+
+/* content-header */
+#content-header {
+  text-align: center;}
+#content-header h5 {
+  margin-bottom: 10px;}
+.pemenang {
+  width: 90%;
+  display: inline-block;}
+.pemenang img {
+  border-color: #ffff99;
+  border-radius: 10px;
+  border-width: medium;
+  width: 30%;
+  height: 40%;}
+.pemenang h4 {
+  margin-top: 10px;}

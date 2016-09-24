@@ -44,20 +44,34 @@
 
       <!-- senarai bulan dan tahun -->
       <div id="content-senarai-bulan">
-        <div id="content-senarai-bulan-header">
-          <h3>SENARAI PEMENANG MENGIKUT BULAN</h3>
-          <h2>2016</h2>
-        </div>
-        <div id="content-senarai-bulan-footer">
-          <div class="bulan">
-            <a href="pemenang-cabutan_7_2016.html">
-              <img src="../img/cabutan/pemenang/PESTABUKUSELANGOR_JUL16.jpg" alt="bulan julai" />
-              <div class="nama-bulan">
-                <h4>JULAI</h4>
-              </div>
-            </a>
+        <form action="../php/pemenang-cabutan_7_2016.php" method="post" class="redirect">
+          <input type="hidden" class="post" name="tarikh" value=""> <!-- value yg akan di pass ke pemenang-cabutan -->
+          <input type="submit" style="display: none;">
+
+          <div id="content-senarai-bulan-header">
+            <h3>SENARAI PEMENANG MENGIKUT BULAN</h3>
+            <h2>2016</h2>
           </div>
-        </div>
+
+          <div id="content-senarai-bulan-footer">
+            <div class="bulan">
+              <!--
+              <a href="#" class="submit-link" var="7-2016">
+                <img id="julai-img" src="../img/cabutan/PESTABUKUSELANGOR_JUL16.jpg" alt="bulan julai" />
+                <div class="nama-bulan">
+                  <h4>JULAI</h4>
+                </div>
+              </a>
+              -->
+              <a href="pemenang-cabutan.html">
+                <img src="../img/cabutan/pemenang/PESTABUKUSELANGOR_JUL16.jpg" alt="bulan julai" />
+                <div class="nama-bulan">
+                  <h4>JULAI</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </form>
       </div>
 
       <div id="content-footer">
@@ -149,5 +163,6 @@
     <script src="../js/framework/jquery-1.11.3.min.js"></script>
     <script src="../js/framework/bootstrap.min.js"></script>
     <script src="../js/header.js"></script>
+    <!-- <script src="../js/cabutan.js"></script> -->
   </body>
 </html>

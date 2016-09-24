@@ -8,6 +8,9 @@ a:hover {
   text-decoration: none;}
 nav {
   font-weight: bold;}
+li {
+  margin-bottom: 10px;
+  text-align: justify;}
 
 /* content */
 #content {
