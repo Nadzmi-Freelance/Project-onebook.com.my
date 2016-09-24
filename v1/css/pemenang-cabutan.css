@@ -1,0 +1,26 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+body {
+  background-color: #CEFFFD;}
+
+#content {
+  padding: 80px 10px 20px 10px;}
+
+/* content-header */
+#content-header {
+  text-align: center;}
+#content-header h5 {
+  margin-bottom: 10px;}
+.pemenang {
+  width: 90%;
+  display: inline-block;}
+.pemenang img {
+  border-color: #ffff99;
+  border-radius: 10px;
+  border-width: medium;
+  width: 30%;
+  height: 40%;}
+.pemenang h4 {
+  margin-top: 10px;}

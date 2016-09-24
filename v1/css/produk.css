@@ -1,0 +1,35 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+a {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+h3 {
+  font-weight: bold;}
+
+.content-header { /* content header */
+  padding: 20px;
+  text-align: center;
+  background-color: #CEFFFD;}
+.content-header a img {
+  height: 140px;
+  width: 140px;}
+.content-footer { /* content footer */
+  text-align: center;
+  padding: 20px 10px 20px 10px;}
+.content-footer a img {
+  height: 100px;
+  width: 100px;}
+.content-footer a h3 {
+  margin-top: 5px;
+  font-size: 15px;}
+.produk { /* each produk */
+  display: inline-block;
+  margin: 40px 20px 40px 20px;}
+.produk-desc {
+  color: #660033;}
+
+#content { /* entire content */
+  margin-top: 60px;}

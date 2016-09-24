@@ -1,0 +1,34 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+a {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+li {
+  height: auto;
+  text-align: justify;}
+
+#content { /* entire content */
+  margin-top: 60px;}
+#content-header { /* content header */
+  padding: 20px;
+  text-align: center;
+  background-color: #CCFFFF;}
+
+#content-footer { /* content footer */
+  text-align: center;
+  padding: 20px 10px 20px 10px;}
+.soalan {
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 10px;
+  list-style-position: inside;}
+.soalan:hover {
+  color: #660066;}
+.jawapan {
+  font-size: 10px;
+  color: #0066ff;
+  display: none;}

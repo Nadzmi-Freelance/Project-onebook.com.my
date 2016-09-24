@@ -9,11 +9,11 @@
 
     <!-- stylesheets -->
     <link href="../css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../css/informasi.css" rel="stylesheet" type="text/css" />
+    <link href="../css/pemenang-cabutan.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <![endif] -->
   </head>
 
   <body>
@@ -21,41 +21,35 @@
       <a href="../index.html"><h1 class="heading-layout">ONEBOOK</h1></a>
       <button class="heading-layout" id="btn-menu" onclick="showDropDown()"><img src="../img/header/ic_menu_black.png" /></button><br />
       <nav id="nav-dropdown-content">
-        <a href="informasi.html"><h2>INFORMASI</h2></a>
-        <a href="produk.html"><h2>PRODUK</h2></a>
-        <a href="promosi.html"><h2>PROMOSI TERKINI</h2></a>
-        <a href="cabutan.html"><h2>CABUTAN BERTUAH</h2></a>
-        <a href="soalan.html"><h2>SOALAN LAZIM</h2></a>
-        <a href="hubung.html"><h2>HUBUNGI KAMI</h2></a>
+        <a href="../html/informasi.html"><h2>INFORMASI</h2></a>
+        <a href="../html/produk.html"><h2>PRODUK</h2></a>
+        <a href="../html/promosi.html"><h2>PROMOSI TERKINI</h2></a>
+        <a href="../html/cabutan.html"><h2>CABUTAN BERTUAH</h2></a>
+        <a href="../html/soalan.html"><h2>SOALAN LAZIM</h2></a>
+        <a href="../html/hubung.html"><h2>HUBUNGI KAMI</h2></a>
       </nav>
     </header>
 
     <div id="content">
-      <div class="content-header">
-        <a href="informasi.html">
-          <img src="../img/informasi/ic_info_black_48dp_2x.png" alt="ikon informasi" />
-          <h2>INFORMASI</h2>
-        </a>
-      </div>
-
-      <div class="content-footer">
-        <p>
-          Syarikat kami Onepage Media Networks adalah pemilik Onebook.
-          Onebook adalah pelopor buku resepi applikasi mobile Android terunggul di Malaysia.
-          Buku resepi kami boleh dibawa kemana sahaja dan boleh diguna pakai 24/7.
-        </p>
-        <br />
-        <p>
-          Buku respi mobile kami terdiri daripada dua kategori iaitu versi percuma dan versi penuh.
-          Versi penuh berharga RM10 sahaja dan akan melayakkan  anda untuk menyertai cabutan bertuah bulanan dan juga cabutan bonanza (tahunan) disamping cabutan khas disetiap promosi khas yang diadakan dari masa ke semasa.
-          Pelbagai hadiah menarik disediakan untuk setiap cabutan berbentuk smartphone Samsung dari pelbagai model.
-          Setiap pemenang cabutan akan diumumkan didalam laman web kami setiap bulan.
-        </p>
+      <div id="content-header">
+        <h5>
+          Pemenang cabutan bertuah sempena pelancaran produk di<br />
+          <b>Pesta Buku Selangor, July, 2016</b>
+        </h5>
+        <div class="pemenang">
+          <img src="../img/cabutan/pemenang/PESTABUKUSELANGOR_JUL16.jpg" alt="pemenang" />
+          <h4>
+            <b>Cikgu Sya Atikah binti Awang</b><br />
+            (Rawang, Selangor)
+          </h4>
+          <p>Memenangi smartphone <b>Samsung Galaxy J7</b></p>
+        </div>
       </div>
     </div>
 
     <footer>
       <h1>HUBUNGI KAMI</h1>
+
       <form id="form" action="../php/hubung.php" method="post">
         <div id="form-input">
           <input type="text" id="form-input-hubung" class="form-hubung" name="nama" placeholder="NAMA" /><br />
