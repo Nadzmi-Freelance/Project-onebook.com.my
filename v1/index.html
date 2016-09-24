@@ -9,7 +9,6 @@
 
     <!-- stylesheets -->
     <link href="css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
@@ -19,7 +18,7 @@
 
   <body>
     <header>
-      <h1 class="heading-layout">ONEBOOK</h1>
+      <a href="index.html"><h1 class="heading-layout">ONEBOOK</h1></a>
       <button class="heading-layout" id="btn-menu" onclick="showDropDown()"><img src="img/header/ic_menu_black.png" /></button><br />
       <nav id="nav-dropdown-content">
         <a href="html/informasi.html"><h2>INFORMASI</h2></a>
@@ -33,41 +32,43 @@
 
     <div id="content">
       <section id="section-head">
-        <a href="#">
+        <a href="index.html">
           <img src="img/homepage/onebook.png"></img><br />
-          <h2>ONEBOOK</h2>
+          <h2><b>ONEBOOK</b></h2>
         </a>
+
+        <img id="banner-promosi" src="img/promosi/promosi_2016.jpg" alt="banner promosi" />
       </section><br />
 
       <section id="section-foot">
         <a class="link" href="html/informasi.html">
           <div>
             <img class="img-link" src="img/homepage/informasi.png" /><br />
-            <h3>INFORMASI</h3>
+            <h3><b>INFORMASI</b></h3>
           </div>
         </a>
         <a class="link" href="html/produk.html">
           <div>
             <img class="img-link" src="img/homepage/produk.png" /><br />
-            <h3>PRODUK</h3>
+            <h3><b>PRODUK</b></h3>
           </div>
         </a>
         <a class="link" href="html/promosi.html">
           <div>
             <img class="img-link" src="img/homepage/promosi.png" /><br />
-            <h3>PROMOSI</h3>
+            <h3><b>PROMOSI</b></h3>
           </div>
         </a>
         <a class="link" href="html/cabutan.html">
           <div>
             <img class="img-link" src="img/homepage/cabutan.png" /><br />
-            <h3>CABUTAN</h3>
+            <h3><b>CABUTAN</b></h3>
           </div>
         </a>
         <a class="link" href="html/soalan.html">
           <div>
             <img class="img-link" src="img/homepage/soalan.png" /><br />
-            <h3>SOALAN</h3>
+            <h3><b>SOALAN</b></h3>
           </div>
         </a>
       </section>
@@ -75,14 +76,15 @@
 
     <footer>
       <h1>HUBUNGI KAMI</h1>
-      <form id="form" action="mailto:mdasmawi@gmail.com" method="post">
+      <form id="form" action="php/hubung.php" method="post">
         <div id="form-input">
           <input type="text" id="form-input-hubung" class="form-hubung" name="nama" placeholder="NAMA" /><br />
-          <input type="text" id="form-input-hubung" class="form-hubung" name="emel" placeholder="EMEL" /><br />
-          <textarea type="textarea" id="form-input-hubung" class="form-hubung" name="komen">KOMEN ANDA</textarea><br />
+          <input type="email" id="form-input-hubung" class="form-hubung" name="emel" placeholder="EMEL" /><br />
+          <textarea type="textarea" id="form-input-hubung" class="form-hubung" name="komen" placeholder="KOMEN ANDA"></textarea><br />
         </div>
         <input id="form-submit" type="submit" class="form-hubung" name="submit" value="HANTAR" />
       </form>
+      <h5 id="copyright">&copy; Onebook Resepi 2016</h5>
     </footer>
 
     <!-- scripts -->

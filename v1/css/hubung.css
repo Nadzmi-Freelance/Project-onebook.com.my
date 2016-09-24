@@ -1,0 +1,12 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+footer {
+  margin-top: 60px;}
+
+#alamat {
+  color: #FFFFBF;
+  margin-top: 20px;}
+#onepage {
+  font-size: 20px;}

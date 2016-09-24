@@ -1,0 +1,29 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+h2 {
+  font-weight: bold;}
+p {
+  color: #000066;
+  text-indent: 20px;}
+a {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+
+#content {
+  margin-top: 60px;}
+
+.content-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #CEFFFD;}
+.content-header a img {
+  height: 140px;
+  width: 140px;
+  margin-bottom: 10px;}
+.content-footer {
+  text-align: justify;
+  padding: 40px 10px 40px 10px;
+  background-color: #ffffff;}

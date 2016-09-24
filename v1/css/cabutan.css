@@ -1,0 +1,91 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+a {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+nav {
+  font-weight: bold;}
+li {
+  margin-bottom: 10px;
+  text-align: justify;}
+
+/* content */
+#content {
+  margin-top: 60px;}
+
+/* content-header */
+#content-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #CEFFFD;}
+#content-header a img {
+  height: 140px;
+  width: 140px;
+  margin-bottom: 10px;}
+#content-header a h2 {
+  color: #0C8343;
+  font-weight: bold;}
+#content-header a h2:hover {
+  color: #004000;}
+
+/* content-senarai-bulan */
+#content-senarai-bulan {
+  background-color: #CEFFFD;}
+
+/* content-senarai-bulan-header */
+#content-senarai-bulan-header {
+  text-align: center;
+  background-color: #FFFFFF;}
+#content-senarai-bulan-header h3, #content-senarai-bulan-header h2 {
+  color: #5C185A;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;}
+
+/* content-senarai-bulan-footer */
+#content-senarai-bulan-footer {
+  text-align: center;
+  padding: 20px 10px 20px 10px;}
+.bulan {
+  height: 200px;
+  width: 150px;
+  margin: 10px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  background-color: #01A89E;}
+.bulan img {
+  margin-top: 5%;
+  object-fit: cover;
+  height: 80%;
+  width: 90%;}
+.nama-bulan {
+  height: 16%;
+  width: 150px;
+  padding: 5%;
+  background-color: #F0F0E1;}
+.nama-bulan h4 {
+  color: #5C185A;
+  font-weight: bold;}
+
+/* content-footer */
+#content-footer {
+  text-align: center;
+  padding: 10px;}
+#content-footer h3 {
+  font-weight: bold;
+  color: #5C185A;
+  margin-top: 10px;
+  margin-bottom: 20px;}
+#content-footer ol {
+  color: #000000;
+  list-style-type: number;
+  list-style-position: inside;
+  padding-left: 20px;
+  padding-right: 20px;}
+.terma-syarat {
+  color: #000000;
+  font-weight: bold;
+  text-align: left;}

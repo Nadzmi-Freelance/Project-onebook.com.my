@@ -1,0 +1,30 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+p {
+  color: #660033;
+  text-align: justify;}
+
+.promosi { /* each promosi */
+  padding: 10px;
+  text-align: center;
+  background-color: #CEFFFD;
+  margin: 20px 10px 20px 10px;}
+
+#content { /* entire content */
+  margin-top: 60px;}
+#content-header { /* content header */
+  padding: 20px;
+  text-align: center;
+  background-color: #CEFFFD;}
+#content-header img {
+  height: 150px;
+  width: 300px;}
+#banner-promosi {
+  width: 80%;
+  display: block;
+  height: auto;
+  margin: 20px auto;}
+#content-footer { /* content footer */
+  padding: 20px 10px 20px 10px;}
