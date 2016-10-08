@@ -1,6 +1,6 @@
-@import "normalize.css";
-@import "header.css";
-@import "footer.css";
+@import "../../../css/normalize.css";
+@import "../../../css/header.css";
+@import "../../../css/footer.css";
 
 a {
   text-decoration: none;}
