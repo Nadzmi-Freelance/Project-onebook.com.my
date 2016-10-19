@@ -1,0 +1,38 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+
+a {
+  text-decoration: none;}
+a:hover {
+  text-decoration: none;}
+
+.link {
+  margin: 10px;
+  text-align: center;
+  display: inline-block;}
+.img-link {
+  height: 140px;
+  width: 140px;
+  margin-bottom: 10px;}
+
+#content {
+  margin-top: 60px;}
+#section-head {
+  text-align: center;
+  background-color: #CEFFFD;
+  padding-top: 30px;
+  padding-bottom: 30px;}
+#banner-promosi {
+  width: 80%;
+  height: auto;
+  margin-top: 20px;}
+#section-head a img {
+  height: 280px;
+  width: 280px;
+  margin-bottom: 10px;}
+#section-foot {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;}

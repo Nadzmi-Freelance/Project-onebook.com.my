@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
+
+    <title>Informasi</title>
+
+    <!-- stylesheets -->
+    <link href="../css/framework/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/produk.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header>
+      <a href="../index.html"><h1 class="heading-layout">ONEBOOK</h1></a>
+      <button class="heading-layout" id="btn-menu" onclick="showDropDown()"><img src="../img/header/ic_menu_black.png" /></button><br />
+      <nav id="nav-dropdown-content">
+        <a href="informasi.html"><h2>INFORMASI</h2></a>
+        <a href="produk.html"><h2>PRODUK</h2></a>
+        <a href="promosi.html"><h2>PROMOSI TERKINI</h2></a>
+        <a href="soalan.html"><h2>SOALAN LAZIM</h2></a>
+        <a href="hubung.html"><h2>HUBUNGI KAMI</h2></a>
+      </nav>
+    </header>
+
+    <div id="content">
+      <div class="content-header">
+        <a href="produk.html">
+          <img src="../img/produk/produk.png" />
+        </a>
+      </div>
+
+      <div class="content-footer">
+        <div class="produk">
+          <a href="https://play.google.com/store/apps/details?id=com.seladanghijau.onebookresepifree">
+            <img src="../img/produk/ic_launcher_resepiFree.png" />
+            <h3>ONEBOOK RESEPI FREE</h3>
+            <p class="produk-desc">Lebih dari 100 resepi.</p>
+          </a>
+        </div>
+
+        <div class="produk">
+          <a href="https://play.google.com/store/apps/details?id=com.seladanghijau.onebookresepi2016">
+            <img src="../img/produk/ic_launcher_resepi_2016.png" />
+            <h3>ONEBOOK RESEPI 2016</h3>
+            <p class="produk-desc">Lebih dari 200 resepi.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h1>HUBUNGI KAMI</h1>
+      <form id="form" action="../php/hubung.php" method="post">
+        <div id="form-input">
+          <input type="text" id="form-input-hubung" class="form-hubung" name="nama" placeholder="NAMA" /><br />
+          <input type="email" id="form-input-hubung" class="form-hubung" name="emel" placeholder="EMEL" /><br />
+          <textarea type="textarea" id="form-input-hubung" class="form-hubung" name="komen" placeholder="KOMEN ANDA"></textarea><br />
+        </div>
+        <input id="form-submit" type="submit" class="form-hubung" name="submit" value="HANTAR" />
+      </form>
+      <h5 id="copyright">&copy; Onebook Resepi 2016</h5>
+    </footer>
+
+    <!-- scripts -->
+    <script src="../js/framework/jquery-1.11.3.min.js"></script>
+    <script src="../js/framework/bootstrap.min.js"></script>
+    <script src="../js/header.js"></script>
+  </body>
+</html>
