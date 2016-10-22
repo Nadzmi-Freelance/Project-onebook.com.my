@@ -1,5 +1,9 @@
 @import "normalize.css";
 
+/* body */
+body {
+  padding-bottom: 50px; }
+
 /* header */
 header {
   text-align: center;
